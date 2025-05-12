@@ -76,7 +76,7 @@ Click the start menu, type "Control Panel" and open it. Under "Programs" choose 
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/e77bdb25-6237-4b73-a8d6-836db30dd8e6" />
+<img width="682" alt="Screenshot 2025-05-12 at 2 07 04 PM" src="https://github.com/user-attachments/assets/502beb5d-6b61-48a7-a49b-6c4b22372af8" />
 </p>
 <p>
 Click the osTicket file on your desktop and open it. It should look like the above picture. Double click the file that says "PHPManagerForIIS_V1.5.0". Then choose "Next", "I Agree" and "Next" again. On the window that pops up click "yes" and when the installation is complete click "close". 
@@ -84,7 +84,7 @@ Click the osTicket file on your desktop and open it. It should look like the abo
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/906c47f5-ebe3-4e7c-a9c1-3082e85eeef5" />
+<img width="682" alt="Screenshot 2025-05-12 at 2 09 13 PM" src="https://github.com/user-attachments/assets/cf05d552-607e-4f38-8b04-c822e8471daf" />
 </p>
 <p>
 In the osTicket file, double click the file that says "rewrite_amd64_en-US". Accept the terms and click "Install". On the Window that pops up choose "Yes". Once the installation is complete, click "finish". 
@@ -92,7 +92,7 @@ In the osTicket file, double click the file that says "rewrite_amd64_en-US". Acc
 <br />
 
 </p>
-<img width="459" alt="Screenshot 2025-05-08 at 1 23 28 PM" src="https://github.com/user-attachments/assets/d4981334-21cd-4c69-980f-351f54ac512b" />
+<img width="678" alt="Screenshot 2025-05-12 at 2 11 08 PM" src="https://github.com/user-attachments/assets/9ad743fd-7706-410b-849c-822881ed83a3" />
 </p>
 <p>
 Go to the file explorer and on the left side, towards the bottom, click on "Windows (C:)". In here, right click and choose "New" and then "Folder". Name the new folder "PHP" and click enter. 
@@ -100,7 +100,7 @@ Go to the file explorer and on the left side, towards the bottom, click on "Wind
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/b37c08a8-c870-486c-b818-55b2c1730491" />
+<img width="679" alt="Screenshot 2025-05-12 at 2 13 57 PM" src="https://github.com/user-attachments/assets/e8b294a4-a1b8-4113-9d99-1beda5b85d04" />
 </p>
 <p>
 Back in the osTicket file, right click on the file named "php-7.3.8-nts-Win32-VC15-x86" and click "extract all". Click "Browse", go to the "Windows (C:)" folder and click "PHP". Hit "select" and then "extract". 
@@ -108,7 +108,7 @@ Back in the osTicket file, right click on the file named "php-7.3.8-nts-Win32-VC
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/3220b985-f85c-41a3-b834-ccf21496b9cd" />
+<img width="679" alt="Screenshot 2025-05-12 at 2 04 34 PM" src="https://github.com/user-attachments/assets/70aeaaf8-77b9-431e-adfe-24cd1c1435e7" />
 </p>
 <p>
 In the osTicket file, double click the file named "VC_redist.x86". Choose "agree" then "install". On the window that pops up choose "yes" and when complete hit "close". 
@@ -116,7 +116,7 @@ In the osTicket file, double click the file named "VC_redist.x86". Choose "agree
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/9af6ffdf-291d-454e-81fe-4b9828aeff3f" />
+<img width="678" alt="Screenshot 2025-05-12 at 2 18 55 PM" src="https://github.com/user-attachments/assets/3f191bd2-6e2f-48bd-9712-07ba0bfadcde" />
 </p>
 <p>
 In the osTicket file, double click "mysql-5.5.62-win32". Click "next", accept the terms and click "next" again. Choose "typical" and then hit "install". On the window that pops up choose "yes". Click "Finish", "yes", "next" and then choose "standard", "next" and "next" again. For "new root password", choose a secure username and password that you will remember. Then click "next" and "execute". Once done, click "Finish". 
@@ -132,7 +132,7 @@ Click the start menu and type "IIS". Click "run as administrator". Once opened, 
 <br />
 
 </p>
-<img width="545" alt="Screenshot 2025-05-08 at 2 10 42 PM" src="https://github.com/user-attachments/assets/dfe8b6ed-9a11-4953-b33e-1ea6239e0ee2" />
+<img width="676" alt="Screenshot 2025-05-12 at 1 29 26 PM" src="https://github.com/user-attachments/assets/4ef16c0d-1ecc-4885-9156-e4a0c665403b" />
 </p>
 <p>
 Back in the osTicket folder, right click on "osTicket-v1.15.8" and choose "extract all" then click "extract". Close the folder that pops up when it is done extracting. In the osTicket folder, you'll see another folder titled the same thing but the difference is, the new one says "File Folder" under "Type" (highlighted in the picture above). Choose this one and open it. There will be two other folders in there titled "scripts" and "upload". Open another tab in file explorer and go to "Windows (C:)", "inetpub", "wwwroot" and copy the "upload" folder into here by dragging it over or just by copying and pasting it. Click "continue" if a window pops up. Right click the "upload" folder you just pasted and rename it to "osTicket". Then, open IIS as an admin again, click "stop" on the right hand side, wait a moment and then click "start". 
@@ -140,7 +140,7 @@ Back in the osTicket folder, right click on "osTicket-v1.15.8" and choose "extra
 <br />
 
 </p>
-<img width="638" alt="Screenshot 2025-05-08 at 2 24 49 PM" src="https://github.com/user-attachments/assets/4ea8d58c-565a-4763-a21b-58c9d984b05a" />
+<img width="1068" alt="Screenshot 2025-05-12 at 1 36 48 PM" src="https://github.com/user-attachments/assets/a7e9607f-bf4c-482e-adcf-23d99d38d2b9" />
 </p>
 <p>
 Back in IIS as an admin, expand "osTicket-vm...", "sites", default web site" and click "osTicket". Then, on the right hand side under "Manage Folder" click "Browse *:80(http)" and it should load the osTicket site. 
@@ -156,7 +156,7 @@ In IIS as an admin, on the left click "sites", "default web sites", "osTicket" a
 <br />
 
 </p>
-<img width="455" alt="Screenshot 2025-05-08 at 2 54 52 PM" src="https://github.com/user-attachments/assets/bca31ddb-42ae-417e-8591-c91a4a61d0b8" />
+<img width="675" alt="Screenshot 2025-05-12 at 1 45 10 PM" src="https://github.com/user-attachments/assets/42196a35-754b-4642-9230-c2c1688b8ad0" />
 </p>
 <p>
 Go to file explorer, click on "Windows (C:)", "inetpub", "wwwroot", "osTicket", "include" then find "ost-sampleconfig.php", right click it and rename it to "ost-config.php". Right click it and choose "properties" as demonstrated in the above picture. Click "security" at the top and then "advanced". Choose "disable inheritance" and "remove all inherited permissions from this object". Then, click "add" and "select a principle". Type who should have permissions and once done select "OK". Check "full control" and click "OK". Click "apply" then "OK". Click "OK" again. 
@@ -164,7 +164,7 @@ Go to file explorer, click on "Windows (C:)", "inetpub", "wwwroot", "osTicket", 
 <br />
 
 </p>
-<img width="608" alt="Screenshot 2025-05-08 at 3 21 35 PM" src="https://github.com/user-attachments/assets/affe1cf9-603b-4536-b4e3-2dc4fdddf178" />
+<img width="937" alt="Screenshot 2025-05-12 at 1 49 52 PM" src="https://github.com/user-attachments/assets/ef531059-ce2d-4c25-b9be-67c84b1a17c5" />
 </p>
 <p>
 On the osTicket website, click "Continue" at the bottom and you will see the screen above. Fill out the info. Choose a helpdesk name and put your email. Under "Admin User", put your name and use a different email address. Put a username and password that you would remember. Before you fill out the database section, complete the next step. 
@@ -172,15 +172,15 @@ On the osTicket website, click "Continue" at the bottom and you will see the scr
 <br />
 
 </p>
-<img width="225" alt="Screenshot 2025-05-08 at 1 07 28 PM" src="https://github.com/user-attachments/assets/512a0f9a-a5d3-46f2-b35c-d98958ea75b2" />
+<img width="679" alt="Screenshot 2025-05-12 at 1 55 03 PM" src="https://github.com/user-attachments/assets/4023354f-5c35-4d43-aa05-f93cb83c7073" />
 </p>
 <p>
-Back in the osTicket folder, double click the file titled "HeidiSQL_12.3.0.6589_Setup". Click "yes" to the window that pops up then choose "I accept the agreement" and "next". Hit "next" for everything and then click "Install". Once done click "Finish". On the window that pops up, click "skip". On the session manager screen, at the bottom left click "new". Where it says "user" and "password" type the one you created on the MySQL Server. Click "open". A window will pop up. On the top right, right click where it says "Unnamed", choose "Create New" and click "database". Type "osTicket" for where it says "Name" and then hit "OK". 
+Back in the osTicket folder, double click the file titled "HeidiSQL_12.3.0.6589_Setup". Click "yes" to the window that pops up then choose "I accept the agreement" and "next". Hit "next" for everything and then click "Install". Once done click "Finish". On the window that pops up, click "skip". On the session manager screen, at the bottom left click "new". Where it says "user" and "password" type the one you created on the MySQL Server. Click "open". A window will pop up. On the top left, right click where it says "Unnamed", choose "Create New" and click "database". Type "osTicket" for where it says "Name" and then hit "OK". 
 </p>
 <br />
 
 </p>
-<img width="602" alt="Screenshot 2025-05-08 at 3 40 09 PM" src="https://github.com/user-attachments/assets/411d8d4f-9bf0-4f11-bc61-7e01eff52f72" />
+<img width="952" alt="Screenshot 2025-05-12 at 2 02 50 PM" src="https://github.com/user-attachments/assets/d583e202-39a3-465c-9424-c0f9d78aeedf" />
 </p>
 <p>
 Back on the osTicket website, under "Database Settings" type "osTicket" for "MySQL database". Then type the username and password you created on the MySQL Server (not the one you just created above). Hit "Install Now". A screen will come up when it's done, as shown above, saying "Congratulations". OsTicket is now installed. 
