@@ -127,7 +127,7 @@ In the osTicket file, double click "mysql-5.5.62-win32". Click "next", accept th
 <img width="542" alt="Screenshot 2025-05-08 at 1 52 54 PM" src="https://github.com/user-attachments/assets/e0f43ebb-ea6e-4b91-9559-d81f827819e4" />
 </p>
 <p>
-Click the start menu and type "IIS". Click "run as administrator". Once opened, click on "PHP Manager" and then "Register new PHP version". Click on the three dots next to the textbox, go to the "Windows (C:)" folder and choose the file titled "php-cgi" then click "OK". On the top left, click "osticketvm..." to take you back to the homescreen. Then, on the right hand side under "Manage Server" click "stop", wait a moment for it to stop and then click "start". 
+Click the start menu and type "IIS". Click "run as administrator". Once opened, click on "PHP Manager" and then "Register new PHP version". Click on the three dots next to the textbox, go to the "Windows (C:)" folder and choose the file titled "PHP". Find "php-cgi" then click "OK". On the top left, click "osticketvm..." to take you back to the homescreen. Then, on the right hand side under "Manage Server" click "stop", wait a moment for it to stop and then click "start". 
 </p>
 <br />
 
